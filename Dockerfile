@@ -1,5 +1,4 @@
-FROM 	node:20.8.1-bookworm-slim
-
+FROM node:20.5.1-alpine
 RUN npm install -g npm@9.1.3
 
 ADD package.json .
