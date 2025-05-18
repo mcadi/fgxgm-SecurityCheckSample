@@ -1,4 +1,4 @@
-FROM node:20.8.0-alpine
+FROM node:20.19.2-alpine
 RUN npm install -g npm@9.1.3
 
 ADD package.json .
